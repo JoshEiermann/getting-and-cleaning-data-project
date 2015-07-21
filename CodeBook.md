@@ -16,8 +16,13 @@ to their columns and entities.
 
 ##Variables and Functions
 -```{r} xtrain```, ```{r}ytrain```, ```{r}xtest```, ```{r} ytest```, ```{r} subjecttrain```, and ```{r} subjecttest``` are data from the downloaded files.
+
 -```{r} data_x```, ```{r} data_y```, and ```{r} data_subject``` were used to merge the above datasets to further clean the data.
+
 -```{r} features ``` contains the corrected names for the ```{r}data_x``` dataset, which are applied to column names in ```{r} mean_std_features```, which is a numeric vector used to extract the data.
+
 -Similarly to before, activity names are corrected through the ```{r} activities``` variable.
+
 -```{r}alldata``` merges ```{r}data_x```, ```{r} data_y```, and ```{r}data_subject``` into a dataset.
-Finally, ```{r}averagesdata``` contains the averages that will be stored in a ```{r}.txt``` file. ```{r} ddply()``` from the plyr package is used to apply ```{r}colMeans()``` for ease of use.
+
+-```{r}averagesdata``` contains the averages that will be stored in a ```{r}.txt``` file. ```{r} ddply()``` from the plyr package is used to apply ```{r}colMeans()``` for ease of use.
