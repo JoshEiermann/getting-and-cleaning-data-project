@@ -1,12 +1,12 @@
 
-##Getting and Cleaning Data Project 
+#Getting and Cleaning Data Project 
 
 This is a repo, which contains R code for the course project and
 supporting documentation. 
 
 The data used can be found here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-#Files in this Repo
+##Files in this Repo
 
 ```{r} codebook.md ``` has a description of the variables, data, and transformations used to clean up the data. 
 
