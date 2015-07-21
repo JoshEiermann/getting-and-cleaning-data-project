@@ -1,9 +1,7 @@
----
-title: "Getting and Cleaning Data Project"
-output: html_document
----
 
-This is a repo, which hosts R code for the course project and
+##Getting and Cleaning Data Project 
+
+This is a repo, which contains R code for the course project and
 supporting documentation. 
 
 The data used can be found here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
