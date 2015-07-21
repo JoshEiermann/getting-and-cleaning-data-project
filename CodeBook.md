@@ -1,5 +1,7 @@
 #Getting and Cleaning Data Project Code Book
 
+##Transformations and Explanations
+
 The file ```{r} run_analysis.R ``` will run code that cleans the data for the 5 
 steps outlined in the project instructions
 
@@ -14,7 +16,7 @@ to their columns and entities.
 
 5. Generated and new dataset with average measures for each subject and activity type. The output file is ```{r} averagesdata.txt``` located in this repo. 
 
-##Variables and Functions
+##Variables
 -```{r} xtrain```, ```{r}ytrain```, ```{r}xtest```, ```{r} ytest```, ```{r} subjecttrain```, and ```{r} subjecttest``` are data from the downloaded files.
 
 -```{r} data_x```, ```{r} data_y```, and ```{r} data_subject``` were used to merge the above datasets to further clean the data.
